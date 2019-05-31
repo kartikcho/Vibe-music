@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    
+  <title>Concert Gallery</title>
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/wheader.css">
+  <link rel="stylesheet" href="../css/totop.css">
+  <link rel="stylesheet" href="../css/concert.css">
+  <link rel="stylesheet" href="../css/transition.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../res/logo2.png" />
+
+
+    <!--Navbar Starts-->
+
+    <div class="nav">
+
+        <a href="../Index.html">Home</a>
+        <a class="active" href="../pages/concert.html">Explore</a>
+        <a href="thewall.html">The Wall</a>
+        <a href="../pages/Aboutus.html">About</a>
+        <img class="logo" src="../res/logo2.png">
+    
+    </div>
+    
+      <!--Navbar Ends--> 
+
+</head>
+
+<body>
+  
+    <!-- Page Content -->
+    <div class="container-fluid">
+
+        
+        <h1 class="playhead">Upcoming Concert Gallery</h1>
+
+        <hr class="trans--grow hr1">
+  
+        <br>
+
+        <!-- Project One -->
+        <div class="row">
+          <div class="concertimg col-md-7">
+            <a href="#openModal">
+              <img class="img-fluid rounded" src="..\res\bkcmumbai.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Ed Sheeran in BKC Mumbai</h3><br>
+            <p>
+                    This is Ed Sheeran's second visit, but he's even bigger now than he was before. With the release of 
+                    Shape of You that has dominated the charts worldwide, there hasn't been a better chance to see him live.
+            </p>
+                <br><center><a class="btn btn-default" href="#openModal">Book Tickets</a></center>
+            </div>
+        </div>
+  
+        <hr>
+  
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded" src="..\res\timeout.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Timeout</h3><br>
+            <p>What's a better way to celebrate the end of the year than with a bash at the beaches of Goa? The debut festival, Timeout 72, already has three of the biggest stars to draw in fans of all music genres. But more than that – you get the full festival experience for a whole weekend.</p>
+                <br><center><a class="btn btn-default" href="#openModal">Book Tickets</a></center>
+            </div>
+        </div>
+  
+        <hr>
+  
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded" src="..\res\kygo.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>SUNBURN ARENA WITH DJ SNAKE</h3><br>
+            <p>DJ Snake is making his way back to India this March.
+                 If you’re in Mumbai, you’ll have the chance to have the most memorable Holi
+                 ever as you party it up with the Taki Taki hitmaker.</p>
+                 <br><center><a class="btn btn-default" href="#openModal">Book Tickets</a></center>
+            </div>
+        </div>
+  
+        <hr>
+  
+        <div class="row">
+  
+          <div class="col-md-7">
+            <a href="#">
+              <img class="img-fluid rounded" src="..\res\guestlist.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>World's Biggest Guestlist Festival</h3><br>
+            <p>This one is a concert to help educate 100,000 children. By attending this event you get to take part in a noble cause while phenomenal Dutch artists. There will also be Indian artists like DJ SHAAN, Neha Kakkar, and Adnan Sami who will join the international stars.</p>
+            <br><center><a class="btn btn-default" href="#openModal">Book Tickets</a></center>
+          </div>
+        </div>
+  
+        <hr>
+      
+    
+  <!--Scroll To Top Start-->
+
+  <button onclick="topFunction()" id="myBtn" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></button>
+
+  <!--Scroll To Top End-->
+
+
+    <!--Modal Boxes Start-->
+
+      <div id="openModal" class="modalDialog">
+            <div>
+              <a href="#close" class="close">X</a>
+              <h1 style="color:black;margin-left: 7%;font-size: 42px;">Book Tickets for the Show</h2>
+             
+              <div ng-app="" ng-init="tickets=0" class="feedback">
+                <div class="feedbackhead">We will contact you shortly via email</div>
+                
+                
+                <label for="field1"><span>Name: <span class="required">*</span></span><input type="text" class="input" name="field1" ng-model="fullname" placeholder="Full Name"/></label>
+                
+                <label for="field2"><span>Email: <span class="required">*</span></span><input type="text" class="input" name="field2" placeholder="Email address"/></label>
+                
+                <label><span>Telephone</span><input type="text" class="telnumber1" name="tel_no_1" maxlength="3" placeholder="+91" />-<input type="text" class="telnumber2" name="tel_no_2" maxlength="10"  /></label>
+                
+                <label for="field4"><span>Row:</span><select name="field4" class="select-field rounded">
+                
+                <option value="Standard">Front Row</option>
+                <option value="Buisness">Middle Row</option>
+                <option value="Holiday">Back Row</option>
+                </select></label>
+                
+                <label><span>Tickets:<span class="required">*</span></span>  <input class="input" type="number" ng-model="tickets"></label>
+
+                <center>
+                    
+                <h3>Total amount: {{ tickets * 500 }} INR </h3>
+
+                <button class="btn btn-default" type="submit" onclick="myfunction()">Submit</button> <button class="btn btn-default" ng-click="reset()">RESET</button>
+                
+                </center>
+
+                </div>
+              </div>
+            
+            </div>
+        </div>
+    
+    <!--Modal Boxes End-->
+
+    <script>
+    function myfunction(){
+        alert("Ticket Registered Succesfully");
+    }
+    </script>
+
+  <script src="../js/totop.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/transition.js"></script>
+
+
+</body>
+
+</html>

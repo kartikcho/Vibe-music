@@ -1,0 +1,88 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+body{
+	background-color: black;
+	height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.col1 {
+  height: 100%; 
+  width: 20%;
+  margin-left: 15px;
+}
+.playimage{
+  height: 120px;
+  width: 120px;
+}
+.genrelist {
+  font: normal 200% 'century gothic', arial, sans-serif;
+}
+/*link style*/
+.genrelist a {
+  display: flex;
+  color: #26abff;
+  text-align: center;
+  padding: 14px 11px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+  font: normal 'century gothic', arial, sans-serif;
+}
+/*color of links on hover */
+.genrelist a:hover {
+  color:white;
+  transition: .5s ease;
+}
+h1{
+  color: #26abff;
+}
+
+/*Nav Start*/
+
+/*black background color*/
+.nav {
+  background-color:#303030;
+  overflow: hidden;
+  font: normal 200% 'century gothic', arial, sans-serif;
+}
+/*link style*/
+.nav a {
+  float: left;
+  display: block;
+  color: #26abff;
+  text-align: center;
+  padding: 14px 11px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font: normal 'century gothic', arial, sans-serif;
+}
+/*color of links on hover */
+.nav a:hover {
+  color:white;
+  transition: .5s ease;
+}
+a.active {
+  color: black;
+}
+.logo{
+	float: right;
+	padding-right: 14px;
+	padding-top: 9px;
+
+}
+/*Nav End*/
+.vertical
+{
+  display:inline-block;
+  vertical-align:top;
+  margin-left:80%;
+  text-align:center;
+}

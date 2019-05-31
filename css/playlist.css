@@ -1,0 +1,82 @@
+body{
+	background-image: url("../res/playlist/playback.png")
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	background-color:#303030;
+	
+}
+h6{
+	color: #B1B1B1;
+	font-size: 110%;
+	font-family: century gothic, sans-serif;
+}
+#portrait{
+	max-height: 300px;
+	max-width: 300px;
+}
+h2{
+	font-family: century gothic, sans-serif;
+}
+h4{
+	font-size: 140%;
+	font-family: century gothic, sans-serif;
+}
+.heading{
+	font-family: century gothic, sans-serif;
+	font-weight: lighter;
+	color: #FD6A02;
+	font-size: 500%;
+}
+hr{
+	border-top: 1px #303030 ;
+	width: 70%;
+} 
+
+/*Playlist design start*/
+
+table {
+  font-family: arial, sans-serif;
+	border-collapse: collapse;
+	margin: auto;
+  width: 80%;
+  background-color: rgb(0,0,0,0.3);
+}
+
+td, th {
+  color: white;
+  text-align: left;
+  padding: 13px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+.playtitle{
+ text-align: left;
+}
+.playlinks{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.playlinks:hover{
+	text-decoration: none;
+	color: #FD6A02;
+	transition: ease-out 0.2s;
+}
+.glyphicon{
+	font-size: 40px;
+	float: left;
+}
+.fa{
+	font-size: 40px;
+	float: left;
+}
+.rank{
+	font-size: 20px;
+}
+.ranktext{
+	font-size: 16px;
+}

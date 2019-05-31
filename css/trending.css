@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: white;
+}
+.playimg{
+    margin-top: 100px;
+}
+
+.playbox:hover img
+{
+  opacity:0.4;
+    /*filter: grayscale(1) blur(4px);*/
+    transition: ease-in-out 0.2s;
+}
+
+.playbox:hover h3.playtitle{
+  display:block;
+
+}
+
+.playhead{ 
+    text-align: center;
+    font: normal 200% 'century gothic', arial, sans-serif;
+    font-size: 50px;
+
+}
+.playtitle{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:12%;
+    font: normal 200% 'century gothic', arial, sans-serif;
+    color: #ec99a5;
+    font-size: 40px;
+    display: none;
+}
+
+  @media only screen and (max-width: 736px){
+    .playtitle {
+        position: absolute;
+        bottom: 43%;
+        left: 28%;
+        z-index: 9999;
+        font: normal 200% 'century gothic', arial, sans-serif;
+        color: #ec99a5;
+        font-size: 40px;
+    }
+}
+ 
+
+
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    transition: ease-out 0.2s;
+  }
+  
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    float: left;
+    width: 20%;
+    height: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    transition: ease-in-out  0.3s;
+  }
+  
+  ol.carousel-indicators li.active {
+      background-color: #ec99a5;
+  }
+  .item img {
+    width: 100%;
+    height: auto;
+    transition: ease-out 0.2s;
+  }

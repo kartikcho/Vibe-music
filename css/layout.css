@@ -1,0 +1,15 @@
+.col1, .col2, .col3, .cols {
+	float:left;
+}
+.col1 {
+	width:400px;
+}
+.cols {
+	width:260px;
+}
+.col2 {
+	width:580px;
+}
+#page6 .col1 {
+	width:247px;
+}

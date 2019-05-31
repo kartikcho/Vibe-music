@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Top Charts</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/cheader.css">
+  <link rel="stylesheet" href="../css/totop.css">
+  <link rel="stylesheet" href="../css/topchart.css">
+  <link rel="stylesheet" href="../css/transition.css">
+  <link rel="shortcut icon" type="image/x-icon" href="../res/logo2.png" />
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/transition.js"></script>
+
+  <!--Navbar Starts-->
+
+  <div class="nav">
+
+    <a href="../Index.html">Home</a>
+    <a href="concert.html">Explore</a>
+    <a href="thewall.html">The Wall</a>
+    <a href="../pages/Aboutus.html">About</a>
+    <img class="logo" src="../res/logo2.png">
+
+  </div>
+
+  <!--Navbar Ends-->
+
+</head>
+
+
+
+<body>
+
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="..\res\slide\vibeslide.png" alt="...">
+        <div class="carousel-caption">
+          Choosing the right music for you
+        </div>
+      </div>
+      <div class="item"><a href="../playlist/billieplay.html">
+          <img src="..\res\slide\beslide.png" alt="..."></a>
+        <div class="carousel-caption">
+          Album in focus
+        </div>
+      </div>
+      <div class="item"><a href="..\playlist\taylor.html">
+          <img src="..\res\slide\tayreputationslide.png" alt="..."></a>
+        <div class="carousel-caption">
+          Check out Taylor's latest album
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <br><br>
+
+  <h1 class="playhead">Our Top Playlists This Week</h1>
+
+  <hr class="trans--grow hr1">
+
+  <br>
+
+  <!--Content Start-->
+
+
+  <!--Playlist Boxes Start-->
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 playbox">
+        <a class="" href="..\playlist\indian.html">
+          <img class="playimg img-responsive" src="..\res\playlist\btop.jpg">
+        </a>
+        <h3 class="playtitle">Bollywood Top</h3>            <!--Hover Title-->
+      </div>
+      <div class="col-sm-4 playbox">
+        <a href="..\playlist\globaltop.html">
+          <img class="playimg img-responsive" src="..\res\playlist\gtop.jpg">
+        </a>
+        <h3 style="left:23%;" class="playtitle">Global Top</h3>               <!--Hover Title-->
+      </div>
+      <div class="col-sm-4 playbox">
+          <a href="..\playlist\weeklytop.html">
+            <img class="playimg img-responsive" src="..\res\playlist\weeklytop15.png">            </a>  
+          </a>
+          <h3 style="left:21%;" class="playtitle">Weekly Top</h3>      <!--Hover Title-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-4 playbox">
+        <a class="" href="..\playlist\hip hop.html">
+          <img class="playimg img-responsive" src="..\res\playlist\hiphop.jpg">
+        </a>
+        <h3 style="left:30%;" class="playtitle">Hip Hop</h3>            <!--Hover Title-->
+      </div>
+      <div class="col-sm-4 playbox">
+        <a href="..\playlist\dubstep.html">
+          <img class="playimg img-responsive" src="..\res\playlist\dubstepdon.jpg">
+        </a>
+        <h3 style="left:17%;" class="playtitle">Dubstep Don</h3>               <!--Hover Title-->
+      </div>
+      <div class="col-sm-4 playbox">
+          <a href="..\playlist\instrumental.html">
+            <img class="playimg img-responsive" src="..\res\playlist\instrumental.jpg">            </a>  
+          </a>
+          <h3 style="left:20%;" class="playtitle">Instrumental</h3>      <!--Hover Title-->
+      </div>
+    </div>
+  </div>
+    
+
+  <!--Playlist Boxes End-->
+  
+  <div style="background-color:black; padding:5%"></div>
+
+  <!--Scroll To Top Start-->
+
+  <button onclick="topFunction()" id="myBtn" title="Back to top"><span class="glyphicon glyphicon-menu-up"></span></button>
+
+  <!--Scroll To Top End-->
+
+  <!--Content End-->
+
+  <script src="../js/totop.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body{
+	text-align: center;
+	background-color:#303030 ;
+	font: 'century gothic', arial, sans-serif;
+}
+h6{
+	color: #B1B1B1;
+	font-size: 110%;
+	font-family: 'century gothic', arial, sans-serif;
+
+}
+#portrait{
+	max-height: 256px;
+	max-width: 256px;
+	border-radius: 50%;
+}
+h2{
+	font-family: normal 'century gothic', arial, sans-serif;
+}
+h4{
+	color: white;
+	font-size: 160%;
+	font-family: 'century gothic', arial, sans-serif;
+}
+.heading{
+	font-family: 'century gothic', arial, sans-serif;
+	color: #FD6A02;
+	font-size: 500%;
+	font-weight: lighter;
+}
+.para{
+	text-align: center;
+	color: #B1B1B1;
+	padding-left: 10%;
+	width:80%;
+	font-family: 'century gothic', arial, sans-serif;
+}
+.hr{
+	border-top: 1px #303030 ;
+	width: 70%;
+} 
+
+/*Category selection style start*/
+
+.category {
+	background-color:transparent;
+	overflow: hidden;
+	font: normal 200% 'century gothic', arial, sans-serif;
+  }
+  /*link style*/
+  .category a {
+	float: left;
+	display: block;
+	color:#FD6A02;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size: 48px;
+	font: normal 'century gothic', arial, sans-serif;
+  
+  }
+  .cat1{
+	margin-left: 20%;
+  }
+  .cat2{
+	margin-left: 75px;
+  }
+  /*color of links on hover */
+  .category a:hover {
+	color:white;
+	transition: .5s ease;
+  }
+  a.active {
+	color: black;
+  }
+
+/*Category selection style End*/
+
+
+/*Playlist design start*/
+
+table {
+  font-family: arial, sans-serif;
+	border-collapse: collapse;
+	margin: auto;
+  width: 80%;
+  background-color: rgb(0,0,0,0.3);
+}
+
+td, th {
+  color: white;
+  text-align: left;
+	padding: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+/*Playlist design end*/

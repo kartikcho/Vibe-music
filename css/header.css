@@ -1,0 +1,33 @@
+/*black background color*/
+.nav {
+  background-color:transparent;
+  overflow: hidden;
+  font: normal 200% 'century gothic', arial, sans-serif;
+}
+/*link style*/
+.nav a {
+  float: left;
+  display: block;
+  color:#FD6A02;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font: normal 'century gothic', arial, sans-serif;
+
+}
+/*color of links on hover */
+.nav a:hover {
+  color:white;
+  transition: .5s ease;
+}
+a.active {
+  color: black;
+}
+.logo{
+  float: right;
+  padding-right: 14px;
+  padding-top: 9px;
+
+}

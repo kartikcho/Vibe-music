@@ -1,0 +1,16 @@
+
+  /*Transition HR Tag Start*/
+  .trans--grow{
+    transition: width 1s  ease-out;
+    width : 0%;
+  }
+  .grow{
+    width:70%;
+  }
+  .hr1{
+    margin-left:15%;
+  }
+  .hr2{
+    margin-right:0;
+  }
+  /*Transition HR Tag End*/
