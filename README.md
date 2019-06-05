@@ -3,10 +3,10 @@ Offline music trends front end website using html, CSS, js, Bootstrap and angula
 
 ## This is a complete project
 This is supposed to be an offline only project for showing front end development,
-there is no web raking involved for analytics. At least not yet, may continue
+there is no web raking involved for analytics, at least not yet, may continue
 this project in future if needed.
 
 ### Website relies on:
-Jquery
-Bootstrap 3
-AngularJS
+* Jquery
+* Bootstrap 3
+* AngularJS
