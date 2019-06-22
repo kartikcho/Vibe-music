@@ -1,5 +1,5 @@
 # Vibe Music
-Offline music trends front end website using html, CSS, js, Bootstrap and angularjs
+Offline music trends front end website using html, CSS, js, Bootstrap and angularjs with custom made resources.
 
 ## This is a complete project
 This is supposed to be an offline only project for showing front end development,
