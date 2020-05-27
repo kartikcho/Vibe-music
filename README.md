@@ -22,7 +22,7 @@
 
 ## This is a complete project
 This is supposed to be an offline only front end  project,
-there is no web raking involved for analytics, at least not yet, I may continue
+there is no web crawling involved for analytics, at least not yet, I may continue
 this project in future if I feel like it.
 
 ### See the website here https://kartik918.github.io/Vibe-music/
